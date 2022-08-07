@@ -27,3 +27,10 @@ mongodb -mongoose
 ler os dados do form 
 
 npm install body-parser --save 
+
+-------------------------
+npm i method-ovverride
+para ler o put e delete 
+
+
+

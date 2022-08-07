@@ -1,14 +1,6 @@
 <div>
-    <form method="POST" action="/deletarprodutos/?_method=DELETE" >
-
-
-            <label>id</label>
-            <input type="number" id="nameid" name="id" placeholder="id">
-            <button type="submit">deletar</button>
-
-
-
-
+    <form method="POST"  action="/deletarprodutos/<%= id %>?_method=DELETE" >
+                <button class="btn btn-warning" type="submit">deletar</button>
     </form>
 
 

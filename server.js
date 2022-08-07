@@ -1,10 +1,14 @@
 const express = require("express")
 app = express();
 const expressLayouts = require("express-ejs-layouts")
-const methodOverride = require("method-override")
+const methodOverride = require("method-override");
+const inputValidator = require("node-input-validator");
 
 
 const indexRouter = require("./routes/index");
+
+
+
 
 const bodyParser = require("body-parser");
 
@@ -23,12 +27,11 @@ app.post("/deletarprodutos", (req,res) => {
    console.log(req.body)
 })
 
-app.use("/",indexRouter)
-app.use("/todosprodutos", indexRouter)
-app.use("/produtos", indexRouter)
-app.use("/deletarprodutos", indexRouter)
-
-
+app.use("/",indexRouter); // index page
+// app.use("/adicionarprodutos", indexRouter);  // adicionar produtos
+// app.use("/produtos", indexRouter); // listar produtos 
+// app.use("/deletarprodutos", indexRouter); // deletar produtos
+// app.use("/editarprodutos", indexRouter); //Editar produtos
 
 
 
