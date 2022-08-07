@@ -34,3 +34,14 @@ para ler o put e delete
 
 
 
+--------------------------------------------
+
+
+1 fazer o controlador
+
+2 corrigir as rotas(agrupar as rotas pelo prefixo produtos)
+
+3 corrir a pasta das views agrupando em uma unica pasta produto
+
+4 Usar letra maiscula em arquivos de CLASSE
+
