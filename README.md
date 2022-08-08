@@ -32,6 +32,10 @@ npm install body-parser --save
 npm i method-ovverride
 para ler o put e delete 
 
+_method=DELETE
+
+---------------------------------
+
 
 
 --------------------------------------------
