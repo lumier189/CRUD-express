@@ -36,6 +36,7 @@ para ler o put e delete
 
 --------------------------------------------
 
+refacturing 
 
 1 fazer o controlador
 
@@ -45,4 +46,6 @@ para ler o put e delete
 
 4 Usar letra maiscula em arquivos de CLASSE
 
-aaa
+5 subir mr pull request no git
+
+
