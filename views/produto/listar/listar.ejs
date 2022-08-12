@@ -1,0 +1,38 @@
+<div id="tabela">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>names</th>
+                <th>preco</th>
+                <th>acoes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for(var i=0; i < produtos.length; i++) { %>
+                <tr>
+                    <td>
+                        <%= produtos[i].id %>
+                    </td>
+                    <td>
+                        <%= produtos[i].name %>
+
+                    </td>
+                    <td>
+                        <%= produtos[i].preco %>
+                    </td>
+                    <td>
+                        <%- include("../deletar/deletar.ejs", {id: produtos[i].id})  %>
+                        
+                        <a class="btn btn-primary" href="/produtos/editar/<%= produtos[i].id %>">
+                            editar
+
+                    </td>
+                
+                </tr>
+                <% } %>
+        </tbody>
+    </table>
+</div>
+
+ 

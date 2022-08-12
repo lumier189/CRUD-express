@@ -32,10 +32,15 @@ npm install body-parser --save
 npm i method-ovverride
 para ler o put e delete 
 
+_method=DELETE
+
+---------------------------------
+
 
 
 --------------------------------------------
 
+refacturing 
 
 1 fazer o controlador
 
@@ -44,4 +49,7 @@ para ler o put e delete
 3 corrir a pasta das views agrupando em uma unica pasta produto
 
 4 Usar letra maiscula em arquivos de CLASSE
+
+5 subir mr pull request no git
+
 
